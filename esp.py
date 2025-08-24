@@ -23,7 +23,9 @@ def get_all_bots() -> list:
     return read_list(list_instance)
 
 class Vector3:
-
+    x = float(0)
+    y = float(0)
+    z  = float(0)
     def __init__(self, data: list) -> None:
         self.x = data[0]
         self.y = data[1]
